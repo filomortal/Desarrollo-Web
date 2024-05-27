@@ -1,0 +1,28 @@
+footer{
+    background-color: var(--primer-color);
+    float: left;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+footer a{
+    color: rgb(49, 49, 237);
+}
+footer a:hover{
+    color: rgb(13, 16, 165);
+}
+footer div{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px){
+    footer{
+        width: 100%;
+        padding: 10px;
+    }
+
+}

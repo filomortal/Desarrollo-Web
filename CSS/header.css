@@ -1,0 +1,24 @@
+header{
+    font-family: "Jaro", sans-serif;
+    float: left;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/106/71/desktop-wallpaper-black-gamer-black-and-white-gaming.jpg);
+}
+header img{
+    width: 150px;
+    background-color: var(--cuarto-color);;
+    border-radius: 100px;
+    filter: drop-shadow(1px 1px 10px var(--segundo-color));
+    margin-top: 20px;
+    animation: moveAndRotate 5s infinite;
+}
+header h1{
+    color: var(--cuarto-color);;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-shadow: 2px 5px 10px var(--segundo-color);;
+    font-weight: 400;
+}
